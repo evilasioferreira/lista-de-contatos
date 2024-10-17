@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de contatos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="start">
+        <h1>Gerenciador de contatos</h1>
+    </header>
+    <fieldset>
+        <form class="formu" id="contactForm">
+            <input type="text" id="fname" name="fname" placeholder="Nome" required><br>
+            <input type="email" id="email" name="email" placeholder="Email" required><br>
+            <input type="number" id="phone" name="phone" placeholder="Telefone" required><br><br>
+            <input type="submit" value="Adicionar">
+        </form>
+    </fieldset>
+    <div class="lista">
+        <h1>Lista de Contatos</h1>
+        <ul id="contactList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+    
